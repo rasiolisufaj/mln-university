@@ -97,6 +97,15 @@ img {
   margin: 20px 0 30px;
 }
 
+.hero .btn {
+  transition: 0.3s all ease-in-out;
+}
+
+.hero-btn:hover {
+  border-radius: 15px 0px;
+  transition: all 0.3s ease-in;
+}
+
 .hero::before {
   content: "";
   position: absolute;
@@ -104,7 +113,7 @@ img {
   left: 0;
   width: 100%;
   height: 100%;
-  background: rgba(0, 0, 0, 0.6);
+  background: rgba(0, 0, 0, 0.55);
 }
 
 .hero * {
