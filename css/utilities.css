@@ -74,6 +74,10 @@
   width: 100%;
 }
 
+.flex-columns.flex-reverse .row {
+  flex-direction: row-reverse;
+}
+
 .flex-columns .column {
   display: flex;
   flex-direction: column;
