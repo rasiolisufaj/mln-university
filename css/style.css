@@ -210,6 +210,10 @@ img {
   margin-top: 20px;
 }
 
+.button.btn {
+  width: 100%;
+}
+
 /* Post */
 .post {
   padding: 50px 30px;
