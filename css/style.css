@@ -49,6 +49,7 @@ img {
   position: fixed;
   top: 0px;
   padding: 0 30px;
+  transition: 0.5s;
 }
 
 .navbar a {
@@ -67,6 +68,10 @@ img {
 
 .navbar .logo {
   font-weight: 400;
+}
+
+.navbar.top {
+  background: transparent;
 }
 
 /* Hero */
@@ -214,7 +219,7 @@ img {
   font-size: 40px;
   margin-bottom: 20px;
   padding-bottom: 10px;
-  border-bottom: #ccc solid 1px;
+  border-bottom: #b1b1b1 solid 1px;
 }
 
 .post .meta {
